@@ -7,46 +7,52 @@
     <title>AI German Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI German Poem Generator</h1>
-    </header>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          name=""
-          id=""
-          placeholder="Enter the topic of the Poem."
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Alles geben die Götter, die unendlichen,<br />
-        Ihren Lieblingen ganz,<br />
-        Alle Freuden, die unendlichen,<br />
-        Alle Schmerzen, die unendlichen, ganz.
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/TinyDotPink" target="_blank"
-        >Christine Jurgeit-Körner</a
-      >
-      and
-      <a
-        href="https://github.com/TinyDotPink/german-poem-generator"
-        target="_blank"
-      >
-        opened-sourced on GitHub</a
-      >
-      and is
-      <a href="https://imaginative-sundae-f151ba.netlify.app/" target="_blank">
-        published on Netlify.</a
-      >
-    </footer>
+    <div id="container">
+      <header>
+        <h1>AI German Poem Generator</h1>
+      </header>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Enter the topic of the Poem."
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submitbutton" />
+        </form>
+        <div class="poem">
+          Alles geben die Götter, die unendlichen,<br />
+          Ihren Lieblingen ganz,<br />
+          Alle Freuden, die unendlichen,<br />
+          Alle Schmerzen, die unendlichen, ganz.
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/TinyDotPink" target="_blank"
+          >Christine Jurgeit-Körner</a
+        >
+        and
+        <a
+          href="https://github.com/TinyDotPink/german-poem-generator"
+          target="_blank"
+        >
+          opened-sourced on GitHub</a
+        >
+        and is
+        <a
+          href="https://imaginative-sundae-f151ba.netlify.app/"
+          target="_blank"
+        >
+          published on Netlify.</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
