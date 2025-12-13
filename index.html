@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI German Poem Generator</title>
   </head>
   <body>
@@ -12,7 +13,7 @@
         <h1>AI German Poem Generator</h1>
       </header>
       <main>
-        <form action="">
+        <form action="" id="poem-generator-form">
           <input
             type="text"
             name=""
@@ -25,12 +26,7 @@
           />
           <input type="submit" class="submitbutton" />
         </form>
-        <div class="poem">
-          Alles geben die Götter, die unendlichen,<br />
-          Ihren Lieblingen ganz,<br />
-          Alle Freuden, die unendlichen,<br />
-          Alle Schmerzen, die unendlichen, ganz.
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         This AI project was coded by
